@@ -30,6 +30,7 @@
     
     if (_bookModelsArray) {
         NSLog(@"Models Loaded Successfully");
+        [_delegate managerDidFinishFetchingData:_bookModelsArray];
     }
     else {
         NSLog(@"Unable to load models in BookManager Class");

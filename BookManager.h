@@ -15,7 +15,7 @@
 
 @protocol BookManagerFetchDataDelegate <NSObject>
 
--(void)managerDidFinishFetchingData:(NSMutableArray *)modelData;
+-(void)managerDidFinishFetchingData:(NSArray *)modelData;
 
 @end
 
