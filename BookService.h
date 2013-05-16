@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JSONModelLib.h"
 
 @interface BookService : NSObject
 

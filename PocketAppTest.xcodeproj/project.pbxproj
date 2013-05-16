@@ -32,6 +32,8 @@
 		094B1AAB17451ED6007281A8 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1A9E17451ED6007281A8 /* JSONModel+networking.m */; };
 		094B1AAC17451ED6007281A8 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1AA117451ED6007281A8 /* JSONKeyMapper.m */; };
 		094B1AAD17451ED6007281A8 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1AA317451ED6007281A8 /* JSONValueTransformer.m */; };
+		094B1AB117451F92007281A8 /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1AB017451F92007281A8 /* BookModel.m */; };
+		094B1AB417451FA4007281A8 /* AuthorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1AB317451FA4007281A8 /* AuthorModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,10 @@
 		094B1AA117451ED6007281A8 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
 		094B1AA217451ED6007281A8 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
 		094B1AA317451ED6007281A8 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		094B1AAF17451F92007281A8 /* BookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
+		094B1AB017451F92007281A8 /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
+		094B1AB217451FA4007281A8 /* AuthorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorModel.h; sourceTree = "<group>"; };
+		094B1AB317451FA4007281A8 /* AuthorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 		094B1A4F17451C69007281A8 = {
 			isa = PBXGroup;
 			children = (
+				094B1AAE17451F76007281A8 /* Models */,
 				094B1A8917451E93007281A8 /* Service */,
 				094B1A8817451E80007281A8 /* Manager */,
 				094B1A6317451C69007281A8 /* PocketAppTest */,
@@ -232,6 +239,17 @@
 			path = JSONModelTransformations;
 			sourceTree = "<group>";
 		};
+		094B1AAE17451F76007281A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				094B1AAF17451F92007281A8 /* BookModel.h */,
+				094B1AB017451F92007281A8 /* BookModel.m */,
+				094B1AB217451FA4007281A8 /* AuthorModel.h */,
+				094B1AB317451FA4007281A8 /* AuthorModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -314,6 +332,8 @@
 				094B1AAB17451ED6007281A8 /* JSONModel+networking.m in Sources */,
 				094B1AAC17451ED6007281A8 /* JSONKeyMapper.m in Sources */,
 				094B1AAD17451ED6007281A8 /* JSONValueTransformer.m in Sources */,
+				094B1AB117451F92007281A8 /* BookModel.m in Sources */,
+				094B1AB417451FA4007281A8 /* AuthorModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
