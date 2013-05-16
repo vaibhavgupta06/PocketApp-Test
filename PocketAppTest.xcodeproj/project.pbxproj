@@ -34,6 +34,8 @@
 		094B1AAD17451ED6007281A8 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1AA317451ED6007281A8 /* JSONValueTransformer.m */; };
 		094B1AB117451F92007281A8 /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1AB017451F92007281A8 /* BookModel.m */; };
 		094B1AB417451FA4007281A8 /* AuthorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1AB317451FA4007281A8 /* AuthorModel.m */; };
+		094B1ABD17453B46007281A8 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1ABC17453B46007281A8 /* Author.m */; };
+		094B1AC017453B47007281A8 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1ABF17453B47007281A8 /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +86,10 @@
 		094B1AB017451F92007281A8 /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
 		094B1AB217451FA4007281A8 /* AuthorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorModel.h; sourceTree = "<group>"; };
 		094B1AB317451FA4007281A8 /* AuthorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorModel.m; sourceTree = "<group>"; };
+		094B1ABB17453B46007281A8 /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		094B1ABC17453B46007281A8 /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+		094B1ABE17453B47007281A8 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		094B1ABF17453B47007281A8 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +110,8 @@
 		094B1A4F17451C69007281A8 = {
 			isa = PBXGroup;
 			children = (
-				094B1AAE17451F76007281A8 /* Models */,
+				094B1AC117453B7B007281A8 /* Core Data Models */,
+				094B1AAE17451F76007281A8 /* JSON Models */,
 				094B1A8917451E93007281A8 /* Service */,
 				094B1A8817451E80007281A8 /* Manager */,
 				094B1A6317451C69007281A8 /* PocketAppTest */,
@@ -239,7 +246,7 @@
 			path = JSONModelTransformations;
 			sourceTree = "<group>";
 		};
-		094B1AAE17451F76007281A8 /* Models */ = {
+		094B1AAE17451F76007281A8 /* JSON Models */ = {
 			isa = PBXGroup;
 			children = (
 				094B1AAF17451F92007281A8 /* BookModel.h */,
@@ -247,7 +254,18 @@
 				094B1AB217451FA4007281A8 /* AuthorModel.h */,
 				094B1AB317451FA4007281A8 /* AuthorModel.m */,
 			);
-			name = Models;
+			name = "JSON Models";
+			sourceTree = "<group>";
+		};
+		094B1AC117453B7B007281A8 /* Core Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				094B1ABE17453B47007281A8 /* Book.h */,
+				094B1ABF17453B47007281A8 /* Book.m */,
+				094B1ABB17453B46007281A8 /* Author.h */,
+				094B1ABC17453B46007281A8 /* Author.m */,
+			);
+			name = "Core Data Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +352,8 @@
 				094B1AAD17451ED6007281A8 /* JSONValueTransformer.m in Sources */,
 				094B1AB117451F92007281A8 /* BookModel.m in Sources */,
 				094B1AB417451FA4007281A8 /* AuthorModel.m in Sources */,
+				094B1ABD17453B46007281A8 /* Author.m in Sources */,
+				094B1AC017453B47007281A8 /* Book.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
