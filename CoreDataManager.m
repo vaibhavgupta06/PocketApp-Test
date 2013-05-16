@@ -75,10 +75,10 @@
             if (![context save:&error]) {
                 NSLog(@"Error ocurred : %@ %@", error,[error userInfo]);
             }
-            else {
-                NSLog(@"Saved Successfully");
-            }
+            
         }
+    NSLog(@"Saved Successfully in database");
+    
     }
     
     //Check if the number of books in database is equal to the number of books in web service
