@@ -21,6 +21,9 @@
     });
 }
 
+/**
+ * After fetching data in background thread, the data is sent to this send which will parse the data to JSON on main thread
+ */
 
 -(void) parseData:(NSData *) jsonData
 {
