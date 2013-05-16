@@ -16,7 +16,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-
+    //
+    // Instantiate the CoreDataManager class and invoke the fetchData method to fetch the JSON, load it into the model and persist the Models into the database
+    //
     CoreDataManager *manager = [[CoreDataManager alloc] init];
     [manager fetchData];
     return YES;
