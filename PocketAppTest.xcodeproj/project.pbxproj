@@ -18,6 +18,8 @@
 		094B1A7217451C69007281A8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 094B1A7117451C69007281A8 /* Default@2x.png */; };
 		094B1A7417451C69007281A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 094B1A7317451C69007281A8 /* Default-568h@2x.png */; };
 		094B1A7717451C69007281A8 /* PocketAppTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 094B1A7517451C69007281A8 /* PocketAppTest.xcdatamodeld */; };
+		094B1A7E17451CA4007281A8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094B1A7D17451CA4007281A8 /* MainStoryboard.storyboard */; };
+		094B1A8117451CEB007281A8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1A8017451CEB007281A8 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		094B1A7117451C69007281A8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		094B1A7317451C69007281A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		094B1A7617451C69007281A8 /* PocketAppTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PocketAppTest.xcdatamodel; sourceTree = "<group>"; };
+		094B1A7D17451CA4007281A8 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		094B1A7F17451CEB007281A8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		094B1A8017451CEB007281A8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 			children = (
 				094B1A6C17451C69007281A8 /* AppDelegate.h */,
 				094B1A6D17451C69007281A8 /* AppDelegate.m */,
+				094B1A7F17451CEB007281A8 /* MainViewController.h */,
+				094B1A8017451CEB007281A8 /* MainViewController.m */,
+				094B1A7D17451CA4007281A8 /* MainStoryboard.storyboard */,
 				094B1A7517451C69007281A8 /* PocketAppTest.xcdatamodeld */,
 				094B1A6417451C69007281A8 /* Supporting Files */,
 			);
@@ -161,6 +169,7 @@
 				094B1A7017451C69007281A8 /* Default.png in Resources */,
 				094B1A7217451C69007281A8 /* Default@2x.png in Resources */,
 				094B1A7417451C69007281A8 /* Default-568h@2x.png in Resources */,
+				094B1A7E17451CA4007281A8 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +183,7 @@
 				094B1A6A17451C69007281A8 /* main.m in Sources */,
 				094B1A6E17451C69007281A8 /* AppDelegate.m in Sources */,
 				094B1A7717451C69007281A8 /* PocketAppTest.xcdatamodeld in Sources */,
+				094B1A8117451CEB007281A8 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
