@@ -9,9 +9,10 @@
 #import "JSONModel.h"
 #import "AuthorModel.h"
 
+@protocol BookModel @end
+
 @interface BookModel : JSONModel
 
-@property(nonatomic,strong) NSString *className;
 @property(nonatomic,strong) NSString *bookId;
 @property(nonatomic,strong) NSString *title;
 @property(nonatomic,strong) NSDate *dateCreated;

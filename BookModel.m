@@ -12,7 +12,7 @@
 
 +(JSONKeyMapper *)keyMapper
 {
-    return [[JSONKeyMapper alloc] initWithDictionary:@{@"class": @"className",@"id":@"bookId",}];
+    return [[JSONKeyMapper alloc] initWithDictionary:@{@"id":@"bookId"}];
 }
 
 @end

@@ -10,7 +10,6 @@
 
 @interface AuthorModel : JSONModel
 
-@property(nonatomic,strong) NSString *className;
 @property(nonatomic,strong) NSString *authorId;
 @property(nonatomic,strong) NSString *firstName;
 @property(nonatomic,strong) NSString *lastName;

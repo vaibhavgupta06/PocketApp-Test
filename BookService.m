@@ -12,16 +12,15 @@
 
 @implementation BookService
 
--(void)fetchDataWithURLString:(NSString *)stringURL
+-(void)fetchDataWithURLWithString:(NSString *)stringURL
 {
+    //NSString *booksURL = stringURL;
     dispatch_async(kBgQueue , ^{
-        
         NSData *jsonData = [NSData dataWithContentsOfURL:[NSURL URLWithString:stringURL]];
         [self performSelectorOnMainThread:@selector(parseData:) withObject:jsonData waitUntilDone:YES];
-        
     });
-
 }
+
 
 -(void) parseData:(NSData *) jsonData
 {
@@ -30,12 +29,10 @@
     
     if (error) {
         NSLog(@"Failed to fetch JSON Data");
-        
     }
     else {
         [_delegate serviceDidFinishFetchingData:_booksArray];
     }
-    
 }
 
 @end

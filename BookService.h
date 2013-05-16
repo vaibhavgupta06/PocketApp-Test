@@ -8,20 +8,19 @@
 
 #import <Foundation/Foundation.h>
 #import "JSONModelLib.h"
-#import "BookModel.h"
-#import "AuthorModel.h"
 
-@protocol BookServiceDidFetchDataDelegate <NSObject>
 
--(void) serviceDidFinishFetchingData:(id)json;
+@protocol BookServiceFetchDataDelegate <NSObject>
+
+-(void) serviceDidFinishFetchingData:(NSArray *)jsonArray;
 
 @end
 
 @interface BookService : NSObject
 
 @property(nonatomic,strong) NSArray *booksArray;
-@property(nonatomic,strong) id<BookServiceDidFetchDataDelegate> delegate;
+@property(nonatomic,strong) id<BookServiceFetchDataDelegate> delegate;
 
--(void)fetchDataWithURLString:(NSString *)stringURL;
+-(void)fetchDataWithURLWithString:(NSString *)stringURL;
 
 @end

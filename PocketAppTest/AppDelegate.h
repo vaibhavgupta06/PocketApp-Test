@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BookManager.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
