@@ -36,6 +36,7 @@
 		094B1AB417451FA4007281A8 /* AuthorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1AB317451FA4007281A8 /* AuthorModel.m */; };
 		094B1ABD17453B46007281A8 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1ABC17453B46007281A8 /* Author.m */; };
 		094B1AC017453B47007281A8 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1ABF17453B47007281A8 /* Book.m */; };
+		094B1AC417453D27007281A8 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B1AC317453D26007281A8 /* CoreDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,8 @@
 		094B1ABC17453B46007281A8 /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
 		094B1ABE17453B47007281A8 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		094B1ABF17453B47007281A8 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		094B1AC217453D26007281A8 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		094B1AC317453D26007281A8 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 		094B1A8817451E80007281A8 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				094B1AC217453D26007281A8 /* CoreDataManager.h */,
+				094B1AC317453D26007281A8 /* CoreDataManager.m */,
 				094B1A8217451E6E007281A8 /* BookManager.h */,
 				094B1A8317451E6E007281A8 /* BookManager.m */,
 			);
@@ -354,6 +359,7 @@
 				094B1AB417451FA4007281A8 /* AuthorModel.m in Sources */,
 				094B1ABD17453B46007281A8 /* Author.m in Sources */,
 				094B1AC017453B47007281A8 /* Book.m in Sources */,
+				094B1AC417453D27007281A8 /* CoreDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
