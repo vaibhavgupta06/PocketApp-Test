@@ -6,6 +6,12 @@
 //  Copyright (c) 2013 Vaibhav Gupta. All rights reserved.
 //
 
+//
+// This web service returns an array of dictionaries i.e. Book Models which further has a key with name "author"
+// The value for author key will be loaded into the Author Model
+// The relationship here is "Book has an author"
+//
+
 #import "JSONModel.h"
 #import "AuthorModel.h"
 

@@ -6,6 +6,10 @@
 //  Copyright (c) 2013 Vaibhav Gupta. All rights reserved.
 //
 
+//
+//  The value for author key in web service is loaded in this model
+//
+
 #import "JSONModel.h"
 
 @interface AuthorModel : JSONModel

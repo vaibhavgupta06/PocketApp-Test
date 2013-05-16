@@ -6,6 +6,11 @@
 //  Copyright (c) 2013 Vaibhav Gupta. All rights reserved.
 //
 
+//
+//    Here the author has a 'one-to-many' relationship with book entity i.e. 'An author has many books"
+//
+
+
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 

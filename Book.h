@@ -6,6 +6,11 @@
 //  Copyright (c) 2013 Vaibhav Gupta. All rights reserved.
 //
 
+//
+//   This is the Core Data schema for Book entity which will be mapped to the BookModel JsonModel
+//
+
+
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
